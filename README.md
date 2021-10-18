@@ -19,6 +19,6 @@
 ### Solution 
   Some solutions that come up were to have and iterative pointer to the pixel that is not done yet. Another solution is predetermine that areas that a thread will work on. In the implementation here the threads are assigned a set number of columns that it will work with.
 ### Example
-  ![inital](Lab1_Files_export/tc1.pgm)
-  ![result](Lab1_Files_export/tc1_solution.pgm)
+  ![inital](Lab1_Files_export/tc1.png)
+  ![result](Lab1_Files_export/tc1_solution.png)
   
