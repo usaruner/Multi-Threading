@@ -9,5 +9,8 @@
 ### Goal 
   finish the meal without deadlock or starvation.
 ### Solution
-  Each diner will attempt to pick up a fork when ready if they can not pick up the fork on the oppsite side they drop their fork. This is repeated until all meals have been eaten.
-  
+  Each diner will attempt to pick up a fork when ready if they can not pick up the fork on the oppsite side they drop their fork. This is repeated until all meals have been eaten. To prevent starvation a delay can be applied after the philsopher finishes a meal.
+## Robert's Cross
+  Roberts Cross is a method that filters out edges for image processing. 
+### Equations/Filter
+  A filter [[1,0],[0,-1]] and [[0,1],[-1,0]] is convoluted with the photo. resulting is grad_x and grad_y. grad_x and grad_y is then mean root square equation( $f(x,y) = sqrt[2]{grad_x^2 +grad_y^2} $ )
