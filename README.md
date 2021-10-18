@@ -4,8 +4,8 @@
   Refers the scenario where N number of philsopher is seated in a round dining table. Between each philospher is only one fork. 
 ### Rules
   Each philsopher has k meals to eat <br/>
-  A philsopher must have 2 forks to eat the meal. 
-  Each philospher may only pick up one fork at the time.
+  A philsopher must have 2 forks to eat the meal. <br/>
+  Each philospher may only pick up one fork at the time. <br/>
 ### Goal 
   finish the meal without deadlock or starvation.
 ### Solution
