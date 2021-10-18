@@ -14,3 +14,5 @@
   Roberts Cross is a method that filters out edges for image processing. 
 ### Equations/Filter
   A filter [[1,0],[0,-1]] and [[0,1],[-1,0]] is convoluted with the photo. resulting is grad_x and grad_y. grad_x and grad_y is then mean root square equation( $f(x,y) = sqrt[2]{grad_x^2 +grad_y^2} $ )
+You can use $$\LaTeX$$ to typeset formulas. A formula can be displayed inline, e.g. $$e=mc^2$$, or as a block:
+$$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
